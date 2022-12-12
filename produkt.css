@@ -1,0 +1,261 @@
+main {
+
+    margin: 0 auto;
+}
+
+.produkt {
+
+    margin-top: 215px;
+
+    height: 595px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.produktsection {
+
+    max-width: 570px;
+    height: 565px;
+
+}
+
+.gallerybox {
+    width: 570px;
+    height: 565px;
+    background-color: #FFE9E9;
+    display: grid;
+    grid-template-columns: repeat( 1 , auto);
+  }
+    
+
+.galleryPhoto {
+    grid-area: 1/1/2/-1;
+    width: 348px;
+    height: 350px;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+
+.h1 {
+    font-family: rubik;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    padding-top: 60px;
+    margin-bottom: 57px;
+
+}
+
+.h1-span {
+    font-weight: 300;
+    color: #24282A;
+    ;
+}
+
+.Fairtradeblomster {
+    max-width: 1440px;
+    display: flex;
+    gap: 130px;
+
+}
+
+.Fairtradeblomster-section1 {
+    max-width: 600px;
+    height: 786px;
+    flex: 3;
+    margin-left: 305px;
+} 
+
+ .Fairtradeblomster-section2 {
+    max-width: 160px;
+    flex: 1;
+    margin-top: 100px;
+
+} 
+
+/* .Fairtradeblomster-section2 ,.Fairtradeblomster-section1 {
+    font-display:inline-block;
+    vertical-align:top;
+    word-wrap: break-word;
+
+} */
+h1 {
+
+    font-size: 48px;
+    padding-top: 52px;
+    padding-bottom: 57px;
+    text-align: center;
+
+}
+
+.om-produkt {
+    width: 570px;
+    height: 565px;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
+    background-color: #F5F7F9;
+    border-radius: 30px;
+}
+
+.produkttext {
+
+    padding-left: 70px;
+    padding-right: 70px;
+
+    padding-bottom: 28px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.forest {
+    margin-left: 100px;
+    width: 70px;
+    height: 84px;
+}
+
+.bestetilbud-button {
+    text-align: center;
+
+}
+
+.Fairtradeblomster-h2 {
+    margin-bottom: 11px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.prcent-div {
+    background-color: #F5F7F9;
+    height: 20px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.prcent {
+    color: aliceblue;
+
+    width: 27%;
+    background-color: pink;
+    height: 20px;
+}
+
+.prcent1 {
+    color: aliceblue;
+
+    width: 20%;
+    background-color: pink;
+    height: 20px;
+
+}
+
+.prcent2 {
+    color: aliceblue;
+
+    width: 17%;
+    background-color: pink;
+    height: 20px;
+}
+
+.prcent3 {
+    color: aliceblue;
+
+    width: 14%;
+    background-color: pink;
+    height: 20px;
+}
+
+.prcent4 {
+    color: aliceblue;
+
+    width: 3%;
+    background-color: pink;
+    height: 20px;
+
+}
+
+.prcent5 {
+    color: aliceblue;
+
+    width: 4%;
+    background-color: pink;
+    height: 20px;
+
+
+}
+
+.prcent7 {
+    color: aliceblue;
+
+    width: 2%;
+    background-color: pink;
+    height: 20px;
+
+
+}
+
+.prcent6 {
+    color: aliceblue;
+
+    width: 5%;
+    background-color: pink;
+    height: 20px;
+
+
+}
+
+.slide {
+    display: none;
+    width: 90%;
+}
+.slide--active {
+    display: block;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.dots{
+    padding: 0.2em 0;
+}
+.dot{
+    color: #92D5F6;
+}
+
+#next,
+#back {
+    grid-area: 1/1/2/-1;
+    align-self: center;
+    font-size: 2.5em;
+    margin: 0.5em;
+    cursor: pointer;
+    color: #92D5F6;
+}
+#next {
+    justify-self: end;
+    
+}
+#back {
+    justify-self: start;
+}
+
+/* .reklame-imgbox{
+     max-width:200px ;
+     height:768px;
+
+}
+
+.reklame-img{
+    width: 160px;
+    max-height: 300px;
+
+   margin-bottom: 130px;
+} */

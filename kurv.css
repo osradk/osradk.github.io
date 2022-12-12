@@ -1,0 +1,63 @@
+span {
+  cursor: pointer;
+}
+
+.number {
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.minus,
+.plus {
+  width: 57px;
+  height: 57px;
+  font-size: 18px;
+  padding: 15px;
+  border: 2px solid #F9C4D2;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.number input {
+  height: 57px;
+  width: 57px;
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid #F9C4D2;
+  background-color: #F9C4D2;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.kurvbox {
+  max-width: 1143px;
+  display: flex;
+  height: 185Px;
+  margin-left: 161px;
+  align-items: center;
+  padding-left: 473px;
+}
+
+.kurvbox:hover {
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
+  background-color: #FFFFFF;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+  padding-top: 153px;
+  padding-bottom: 54px;
+  padding-left: 135px;
+}
+
+.bestetilbud-button {
+  padding-left: 1035px;
+  padding-top: 69px;
+}
+
+button {
+  background-color: white;
+}

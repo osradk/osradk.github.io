@@ -1,0 +1,574 @@
+main {
+
+  max-width: 1440px;
+  height: 2045px;
+  background-color: #F2F4F6;
+}
+
+h1 {
+  margin: 0 auto;
+  margin-bottom: 35px;
+  font-size: 48px;
+  font-weight: 300;
+
+}
+
+.betaling-box {
+  max-width: 670px;
+  margin: 0 auto;
+  padding-top: 200px;
+
+}
+
+.fakture-box {
+  max-width: 670px;
+  background-color: #FFFFFF;
+  height: 738px;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+  margin: 0 auto;
+
+}
+
+.fakture-box:hover {
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
+
+}
+
+.fakture-box h2 {
+  font-size: 20px;
+  color: #979797;
+  line-height: 30px;
+  font-weight: 400;
+  padding-top: 50px;
+  padding-left: 100px;
+
+
+}
+
+.fakture-box h3 {
+  font-size: 20px;
+  color: #979797;
+  line-height: 30px;
+  font-weight: 400;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-top: 150px;
+
+}
+
+.fakture-box .first-h2 h2 {
+  font-size: 20px;
+  color: #979797;
+  line-height: 30px;
+  font-weight: 400;
+  padding-top: 50px;
+  padding-left: 100px;
+  margin-top: 150px;
+
+}
+
+.fakture-box .h2-span {
+  font-size: 24px;
+  font-weight: 400;
+
+}
+
+.flex-h2 {
+  display: flex;
+  gap: 6.25rem;
+}
+
+
+.betalingoversigt {
+  max-width: 1170px;
+  display: flex;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  border-radius: 30px;
+  margin-right: 135px;
+  margin-left: 135px;
+  margin-top: 106px;
+  display: none;
+}
+
+.oversigt {
+
+  width: 470px;
+  height: 738px;
+  background-color: #FFE9E9;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+
+
+}
+
+
+
+.Kreditkort {
+  background-color: #FFFFFF;
+  width: 700px;
+  height: 738px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+
+
+}
+
+.betalingoversigt h2 {
+
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 69px;
+  margin-bottom: 30px;
+  padding-left: 70px;
+}
+
+
+
+hr {
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+.oversigt .tabel-hr {
+  height: 6px;
+  width: 270px;
+  background-color: pink;
+  margin: 0 auto;
+  border: none;
+
+}
+
+.first-tabel {
+  width: 100%;
+  padding-top: 50px;
+
+}
+
+.tabel-tr {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.sum {
+  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: rgb(0, 0, 5);
+  font-size: 16px;
+
+}
+
+th,
+td {
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+
+th {
+  width: 40%;
+  padding-left: 100px;
+
+  padding-bottom: 5px;
+}
+
+td {
+  width: 40%;
+
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 65px;
+  padding-bottom: 25px;
+}
+
+.flex li {
+  list-style-type: none;
+
+}
+
+.Kreditkort .ul-hr {
+  width: 100%;
+}
+
+.Kreditkort .h3-span {
+  font-size: 24px;
+
+
+
+}
+
+.Kreditkort h3 {
+  padding-bottom: 25px;
+}
+
+.Kreditkort .kort-hr {
+  width: 100%;
+
+}
+
+.kort {
+  max-width: 430px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+.flexkort {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+
+
+main {
+  max-width: 1440px;
+  height: 2045px;
+  background-color: #F2F4F6;
+}
+
+h1 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 56px;
+  color: #24282A;
+}
+
+.betaling-box {
+
+  max-width: 670px;
+  margin: 0 auto;
+  padding-top: 200px;
+
+}
+
+.fakture-box {
+  max-width: 670px;
+  background-color: #FFFFFF;
+  height: 738px;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.fakture-box:hover {
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+
+.fakture-box .bestetilbud-button {
+  padding-left: 100px;
+  padding-top: 150px;
+
+}
+
+.form-container {
+  max-width: 100%;
+  padding: 100px 100px 250px;
+
+}
+
+label {
+  font-size: 20 px;
+  font-weight: 400;
+  color: #979797;
+}
+
+
+.betalingoversigt {
+  max-width: 1170;
+  display: flex;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  border-radius: 30px;
+  margin-right: 135px;
+  margin-left: 135px;
+  margin-top: 106px;
+ 
+}
+
+.oversigt {
+  width: 470px;
+  height: 738px;
+  background-color: #FFE9E9;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.Kreditkort {
+  width: 700px;
+  height: 738px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.betalingoversigt h2 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 69px;
+  margin-bottom: 30px;
+  padding-left: 70px;
+}
+
+hr {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.oversigt .tabel-hr {
+  height: 6px;
+  width: 270px;
+  background-color: pink;
+  margin: 0 auto;
+  border: none;
+}
+
+.first-tabel {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.tabel-tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sum {
+  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: rgb(0, 0, 5);
+  font-size: 16px;
+}
+
+th,
+td {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+th {
+  width: 40%;
+  padding-left: 100px;
+  padding-bottom: 5px;
+}
+
+td {
+  width: 40%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 65px;
+  padding-bottom: 25px;
+}
+
+.flex li {
+  list-style-type: none;
+}
+
+.Kreditkort .ul-hr {
+  width: 100%;
+}
+
+.Kreditkort .h3-span {
+  font-size: 24px;
+}
+
+.Kreditkort h3 {
+  padding-bottom: 25px;
+}
+
+.Kreditkort .kort-hr {
+  width: 100%;
+}
+
+.kort {
+  max-width: 430px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+.card-flex {
+  max-width: 430;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 50px;
+  align-items: center;
+}
+
+.creditCardForm {
+  max-width: 430px;
+}
+
+.creditCardForm label {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input,
+label {
+  display: block;
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #F2F4F6;
+  margin-top: 7px;
+  margin-bottom: 55px;
+  background-color: none;
+  font-size: 20px;
+
+}
+
+input[type="email"].betalings-email {
+  all: unset;
+  background-color: none;
+  border-bottom: 2px solid #F2F4F6;
+  line-height: 36px;
+  font-weight: 100;
+  font-family: Rubic;
+  font-size: 24px;
+}
+
+input[type="text"] {
+  width: 70%;
+}
+
+
+.exp-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.exp-wrapper:after {
+  content: '/';
+  position: absolute;
+  left: 50%;
+  margin-left: -11px;
+  color: #aaa;
+  margin-top: 9px;
+}
+
+input.exp {
+  float: left;
+  font-family: monospace;
+  border: 0;
+  width: 50px;
+  outline: none;
+  appearance: none;
+  font-size: 14px;
+}
+
+card-flex-right {
+  flex: 3;
+}
+
+card-flex-left {
+  flex: 1;
+}
+
+.bestilNu {
+float: right;
+
+}
+
+
+
+.emailinput {
+  width: 770px;
+  position: relative;
+  left: 335px;
+  top: -50px;
+}
+
+#email input[type="email"] {
+  width: 100%;
+  height: 100px;
+  border-radius: 50px;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 100px;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.emailinput button {
+  width: 200px;
+  height: 80px;
+  border-radius: 50px;
+  background-image: linear-gradient(#F9C4, #F9C4D2);
+  transition: 0.3s;
+  cursor: pointer;
+  border: none;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  transform: translateX(2px);
+}
+
+.emailinput button:hover {
+  width: 220px;
+  height: 100px;
+  margin-top: -10px;
+  margin-right: -10px;
+}
+
+.emailinput .fas {
+  color: #92D5F6;
+  width: 18px;
+  height: 13px;
+  position: absolute;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  align-items: center;
+}
+
+
+
+.noSelect {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.noSelect:focus {
+  outline: none !important;
+}
+
+.icon {
+  padding: 40px;
+  min-width: 40px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Betaling KARMEN</title>
+    <meta name="description" content="dit nye bæredygtig altanavtiv til søstergrinde">
+    <meta name="kyword">
+    <script src="https://kit.fontawesome.com/82b45ea0a5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="betaling.css">
+    <script src="forside.js" defer></script>
+    <script src="betaling.js" defer></script>
+   
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <nav>
+                <div class="logo">
+                   <a href="index.html" title="karmen forside"><img src="images/logo1.png" alt=" logo"></a> 
+                </div>
+                <ul>
+                    <li>
+                        <a href="index.html"> Forside</a>
+                    </li>
+                    <li>
+                        <a href="produkter.html"> Produkter</a>
+                    </li>
+                    <li class="mereinfo">
+                        <a href="">Mere info </a>
+                        <ul class="dropdown">
+                            <li><a href="">Kontakt</a></li>
+                            <li><a href="">Om os</a></li>
+                            <li><a href="">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="kurv.html"><i class="fas fa-cart-plus"></i>Kurv</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+
+
+        <main>
+            <section>
+                <article class="betaling-box">
+                    <div class="betaling-h1">
+                        <h1>Fakturering</h1>
+                    </div>
+
+                    <section class="fakture-box">
+                       
+                            <form class="form-container">
+                                <label for="adresse">Adresse</label>
+                                <input type="text" id="adresse" name="adresse" placeholder="Københavnsvej 102"><br>
+                                <div class=" card-flex">
+                                    <div class="card-flex-left">
+                                        <label for="name">By</label>
+                                        <input type="text" id="by" name="by" placeholder=" Roskilde">
+                                    </div> 
+                                    <div class="card-flex-right">
+                                        <label for="Postnummer">Postnummer</label>
+                                        <input type="text"  name="Postnummer" placeholder=" 4000">
+                                    </div>
+                                </div>
+                                <label for="Email">Email</label>
+                                <input type="email"  name="email" placeholder=" email" class="betalings-email">
+                                <div class="bestetilbud-button">
+                                    <button class="btn_tilBetaling"> Til betaling </button>
+                                </div> <p id="besked"></p>   
+                            </form>
+                           
+                        
+                        
+                    </section>
+                </article>
+
+
+                <article class="betalingoversigt">
+                    <section class=" oversigt">
+                        <h2>
+                            Betalings oversigt
+                        </h2>
+
+                        <table class="first-tabel">
+                            <tr class="tabel-tr">
+                                <th>staffeli </th>
+                                <td> 1stk</td>
+                            </tr>
+                            <tr class="tabel-tr">
+                                <th>Sukkulent </th>
+                                <td> 2 stk</td>
+                            </tr>
+                            <tr class="tabel-tr">
+                                <th class="sum">Sum:</th>
+                                <td class="sum"> 130Dk</td>
+                            </tr>
+                        </table>
+                        <hr class="tabel-hr">
+                        <table class="first-tabel">
+                            <tr class="tabel-tr">
+                                <th>Fragt </th>
+                                <td>30Dk</td>
+                            </tr>
+                            <tr class="tabel-tr">
+                                <th>Moms </th>
+                                <td>32.5 Dk</td>
+                            </tr>
+                            <tr class="tabel-tr">
+                                <th class="sum">Total</th>
+                                <td class="sum">192 Dk</td>
+                            </tr>
+                        </table>
+
+
+                    </section>
+                    <section class="Kreditkort">
+
+                        <div>
+                            <ul class="flex">
+                                <li>
+                                    Kreditkort
+                                </li>
+                                <li>
+                                    Mobile pay
+                                </li>
+                                <li>
+                                    Paypal
+                                </li>
+                            </ul>
+
+                        </div>
+                        <hr class="ul-hr">
+
+                        <form class="form-container" action="/site/tak.html">
+                            <label for="cardNumber">Kort nummer</label>
+                            <input name="credit-number" class="cc-number" type="tel" pattern="\d*" maxlength="19" placeholder="0123  4567  8910  1112">
+                            <div class=" card-flex">
+                                <div class="card-flex-left">
+                                    <div class="exp-wrapper">
+                                        <input autocomplete="off" class="exp" id="month" maxlength="2" pattern="[0-9]*" inputmode="numerical" placeholder="MM" type="text" data-pattern-validate />
+                                        <input autocomplete="off" class="exp" id="year" maxlength="2" pattern="[0-9]*" inputmode="numerical" placeholder="YY" type="text" data-pattern-validate />
+                                    </div>
+                                </div> 
+                                <div class="card-flex-right">
+                                    <label for="lname">cvv</label>
+                                    <input type="text" id="lname" name="lname" placeholder="625">
+                                </div>
+                            </div>
+                            <label for="lname">Navn</label>
+                            <input type="name" id="name" name="name" placeholder="John Doe">
+                            <div class="bestetilbud-button">
+                                <button class="bestilNu"> Bestil nu </button>
+                            </div>
+                        </form>
+                    </section>
+
+                </article>
+
+        </main>
+
+        <footer class="footer">
+            <div class="footerh3">
+                <h3>Tilmeld dig vores nyhedsbrev</h3>
+            </div>
+            <div class="underfooter">
+
+                <div class="emailinput">
+                    <form id="form1" action="">
+                        <i class="fas fa-envelope icon"></i>
+                        <input class="input-field noSelect" type="email" id="email" name="email"
+                            placeholder="Din Email" />
+                        <button>Abonner</button>
+                    </form>
+                    <p id="besked"></p>
+                </div>
+
+                <section class="footersec">
+                    <div class="footernav">
+                        <nav>
+                            <div class="footerlogo">
+                                <img src="images/Layer2.png" alt="Layer2">
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="index.html">Forside</a>
+                                </li>
+                                <li>
+                                    <a href="produkter.html">Produkter</a>
+                                </li>
+                                <li>
+                                    <a href="">Mere info</a>
+                                </li>
+                                <li>
+                                    <a href="kurv.html"> <i class="fas fa-cart-plus"></i>Kurv</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+            </div>
+        </footer>
+    </div>
+</body>
+
+
+</html>

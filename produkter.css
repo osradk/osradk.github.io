@@ -1,0 +1,74 @@
+main{
+    max-width: 1440px;
+    height: 1696px;
+    background-color: #F5F7F9;
+}
+
+h1{
+    padding-left:135px;
+    padding-top: 152px;
+    padding-bottom: 89px;
+}
+
+.staffel__box{
+    max-width: 370px;
+    height: 370px;
+    background-color: #FFE9E9;
+}
+.staffel__img{
+    max-width: 210px;
+    height: 250px;
+    padding-top: 52px;
+   margin-left: 84px;
+}
+
+
+
+.staffel{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 528px;
+}
+
+.article1{
+   
+    max-width: 1179px;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:30px;
+    margin: 0 auto;
+    row-gap: 100px;
+ 
+  
+}
+h2{
+    
+    font-size: 18px;
+    font-weight: 700;
+text-align: center;
+padding-top: 30px;
+}
+h3{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bestetilbud-button{
+    margin: 0 auto;
+
+}
+.ugle{
+    max-width: 128px;
+    height: 250px;
+}
+.krokodille{
+margin-top: 130px;
+width: 250px;
+height: 58px;
+ 
+    
+}
+.blivinspireret{
+
+}
