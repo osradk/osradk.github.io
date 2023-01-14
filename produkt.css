@@ -61,30 +61,42 @@ main {
 .Fairtradeblomster {
     max-width: 1440px;
     display: flex;
-    gap: 130px;
+   
 
 }
 
 .Fairtradeblomster-section1 {
     max-width: 600px;
+    height: auto;
     height: 786px;
-    flex: 3;
-    margin-left: 305px;
-} 
+     flex: 3;
+    margin-left: 305px; 
+
+    
+}  
 
  .Fairtradeblomster-section2 {
     max-width: 160px;
-    flex: 1;
-    margin-top: 100px;
+
+ 
+   
 
 } 
 
-/* .Fairtradeblomster-section2 ,.Fairtradeblomster-section1 {
-    font-display:inline-block;
-    vertical-align:top;
-    word-wrap: break-word;
+.Fairtradeblomster-section2 ,.Fairtradeblomster-section1 {
+ display:inline-block;
+   
 
-} */
+}
+
+.reklame-img{
+    width: 160px;
+    max-height: 300px;
+    padding-top: 100px;
+  margin-left: 130px;
+  margin-bottom: 235px;
+   
+} 
 h1 {
 
     font-size: 48px;
@@ -247,15 +259,9 @@ h1 {
     justify-self: start;
 }
 
-/* .reklame-imgbox{
+ /* .reklame-imgbox{
      max-width:200px ;
      height:768px;
 
-}
-
-.reklame-img{
-    width: 160px;
-    max-height: 300px;
-
-   margin-bottom: 130px;
 } */
+
